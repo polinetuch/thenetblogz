@@ -5,6 +5,7 @@
   "scripts": {
     "start": "node app.js"
   },
+  "proxy": "http://localhost:8080",
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
