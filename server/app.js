@@ -3,10 +3,12 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+// var mysql = require('mysql');
 
-var indexRouter = require('../client/routes/index');
-var usersRouter = require('../client/routes/users');
+var indexRouter = require('./routes/index');
+var usersRouter = require('./routes/users');
 
+var PORT = process.env.PORT || 8080;
 var app = express();
 
 // view engine setup
@@ -37,5 +39,26 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+app.listen(PORT, function() {
+  console.log("App listening on http://localhost:" + PORT );
+})
+
+// Connecting to mysql database
+// const connection = mysql.createConnection({
+//   port: "3306",
+//   host: "localhost",
+//   user: "root",
+//   password: "",
+//   database: "thenetblogz"
+// });
+
+// connection.connect(function(err) {
+//   if (err) {
+//     console.error("error connecting: " + err.stack);
+//     return
+//   }
+//   console.log("Connected to MySQL DB " + connection.threadId)
+// })
 
 module.exports = app;
