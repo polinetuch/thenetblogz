@@ -6,8 +6,15 @@ import About from './components/pages/About';
 import Blog from './components/pages/Blog';
 import Games from './components/pages/Games';
 import Projects from './components/pages/Projects';
+import projects from './components/pages/projects.json';
 
-function App() {
+class App extends React.Component {
+  state = {
+    projects
+  };
+
+  render() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -18,12 +25,13 @@ function App() {
         <Router>
             <NavTabs />
             <Route exact path="/about" component={About} />
-            <Route exact path="/projects" component={Projects} />
+            <Route exact path="/projects" component={Projects}/>
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/games" component={Games} />
         </Router>
     </div>
   );
+}
 }
 
 export default App;

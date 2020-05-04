@@ -1,0 +1,11 @@
+[
+  {
+    "Crystal": {
+      "id": 1,
+      "name": "Crystal Collector",
+      "image": "./img/crystal-collector.png",
+      "description": "",
+      "url": "https://polinetuch.github.io/unit-4-game/"
+    }
+  }
+]
