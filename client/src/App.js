@@ -13,7 +13,7 @@ function App() {
           <Router>
             <div>
             <NavTabs />
-            <Router exact path="/" component={About} />
+            <Router exact path="/about" component={About} />
             </div>
           </Router>
         </div>

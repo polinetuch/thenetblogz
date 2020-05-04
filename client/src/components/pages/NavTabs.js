@@ -1,10 +1,11 @@
 import React from 'react';
-import { link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function NavTabs() {
     return (
         <div className="col-sm-4">
-            <a class="nav-item nav-link active" href="#">About</a>
+           <Link to="/about" className={window.location.pathname === "/about" ? 
+           "nav-link active" : "nav-link"}>About</Link>
         </div>
     )
 }
