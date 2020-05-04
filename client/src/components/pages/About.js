@@ -4,26 +4,45 @@ class About extends React.Component{
     render() {
         return (
             <>
-            <h1>About me</h1>
-            <p>my name is polinet. before getting to know
-                me. i thought it'd be cool to write everything
-                in lowercase. let's get to business. i am a
-                junior full-stack web developer; graduated from
-                monash university coding bootcamp. i have done an
-                intensive 6 months of coding. i enjoy it more than
-                i do. 
-            </p>
+            <h1>Who am I?</h1>
+            <strong>
+                <h3>
+                    My name is Polinet 
+                </h3>
+            </strong>
             <p>
-                i was a former teacher. i did enjoy but my passion
-                for coding took control over me. i didn't regret any
-                part of it. it's been an awesome journey.
+                I am a junior full-stack web developer based
+                in Melbourne. 
+                I enjoy problem solving and currently interested
+                in learning more about React and making things
+                pretty and easy to use. I am also adventurous
+                with 🍜🍕🍙🍝. This may sounds weird to some but
+                I've eaten these guys before
+                🦗 and tarantula. 
             </p>
-            <p>
-                sorry it is getting too long. i am trying to reuse and
-                relearnt the skills i have so that i could extend on.
-                i want to get involved in cloud computing and to learn
-                more.
-            </p>
+            <strong>
+                <h3>What do I do?</h3>
+            </strong>
+            <div className="row">
+                    <h4>I am a junior developer</h4>
+                    <div className="col-sm-3">
+                        <p>For front-end, I usually work
+                            with Javascript as well as other
+                            framework such as React Js. I also
+                            have hands-on experience with CSS and
+                            Bootstrap.
+                        </p>
+                    </div>
+
+                    <div className="col-sm-3">
+                        <p>
+                            For back-end, I have worked on Javascripts
+                            libraries (Node, Express, Ajax, Axios,
+                            MongoDB, MySQL).
+                        </p>
+                    </div>
+
+            </div>
             </>
         )
     }

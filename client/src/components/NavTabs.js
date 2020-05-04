@@ -14,6 +14,13 @@ class NavTabs extends React.Component {
                                     "nav-link active" : "nav-link"}>About</Link>
                                 </li>
                             </div>
+                            
+                            <div className="col-sm-3">
+                                <li className="nav-item text-left-blog">
+                                    <Link to="/projects" className={window.location.pathname === "/projects"
+                                    ? "nav-link active" : "nav-link"}>Projects</Link>
+                                </li>
+                            </div>
 
                             <div className="col-sm-3">
                                 <li className="nav-item">
@@ -29,12 +36,6 @@ class NavTabs extends React.Component {
                                 </li>
                             </div>
 
-                            <div className="col-sm-3">
-                                <li className="nav-item text-left-blog">
-                                    <Link to="/resume" className={window.location.pathname === "/resume"
-                                    ? "nav-link active" : "nav-link"}>Resume</Link>
-                                </li>
-                            </div>
                         </ul>
                     </nav>
                 </div>
