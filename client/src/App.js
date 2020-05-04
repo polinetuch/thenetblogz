@@ -12,20 +12,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
-          <h1>The Net Blogz</h1>
+          <h1>The Net Blogs</h1>
           </div>
       </header>
-      <div>
         <Router>
-          <div>
             <NavTabs />
-            <Route exact path="/about" component={About} />
+            <Route exact path="/about" className="text-left-about" component={About} />
             <Route exact path="/blog" component={Blog} />
             <Route exact path="/games" component={Games} />
-            <Route exact path="/resume" component={Resume} />
-          </div>
+            <Route exact path="/resume" className="text-right-resume" component={Resume} />
         </Router>
-    </div>
     </div>
   );
 }
