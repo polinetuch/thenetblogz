@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-import NavTabs from './components/pages/NavTabs';
+import NavTabs from './components/NavTabs';
 import About from './components/pages/About';
+import Blog from './components/pages/Blog';
 
 function App() {
   return (
@@ -10,15 +11,15 @@ function App() {
       <header className="App-header">
         <div className="container">
           <h1>The Net Blogz</h1>
+          </div>
+      </header>
           <Router>
             <div>
             <NavTabs />
-            <Router exact path="/about" component={About} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/blog" component={Blog} />
             </div>
           </Router>
-        </div>
-      </header>
-      
     </div>
   );
 }
