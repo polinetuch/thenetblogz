@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
+import NavTabs from './components/pages/NavTabs';
+import About from './components/pages/About';
 
 function App() {
   return (
@@ -10,20 +12,10 @@ function App() {
           <h1>The Net Blogz</h1>
           <Router>
             <div>
-              
+            <NavTabs />
+            <Router exact path="/" component={About} />
             </div>
           </Router>
-          {/* <div className="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              
-              <div className="col-sm-4">
-                <a className="nav-item nav-link active" href="#">About Me</a>
-              </div>
-              <div className="col-sm-4">
-                <a className="nav-item nav-link active" href="#">Blog</a>
-              </div>
-            </nav>
-          </div> */}
         </div>
       </header>
       
