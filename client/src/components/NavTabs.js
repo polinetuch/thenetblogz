@@ -14,6 +14,11 @@ class NavTabs extends React.Component {
                     <Link to="/blog" className={window.location.pathname === "/blog" 
                     ? "nav-link active" : "nav-link"}>Blog</Link>
                 </li>
+
+                <li className="nav-item">
+                    <Link to="/games" className={window.location.pathname === "/games"
+                    ? "nav-link active" : "nav-link"}>Games</Link>
+                </li>
             </ul>
             
         )
