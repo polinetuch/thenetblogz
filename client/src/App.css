@@ -3,11 +3,11 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #252835;
+  background-color: #f0f0f0;
 }
 
 .App {
-  color: #f8f8f8;
+  /* color: #f8f8f8; */
   font-family: "Manrope", sans-serif;
 }
 
@@ -33,7 +33,7 @@ body {
 }
 
 .App-link {
-  color: #61dafb;
+  color: black;
 }
 
 .topnav {
@@ -45,6 +45,49 @@ body {
 .nav-item {
   font-size: 20px;
   font-weight: bold;
+}
+
+/* .card {
+  text-align: center;
+  background: #e877a6;
+  color: white;
+  margin: 10%;
+  padding: 10%;
+} */
+
+#about {
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-color: #fafafa;
+  -webkit-clip-path: polygon(0 0, 20% 5%, 100% 100%, 80%, 95%, 0 100%);
+  clip-path: polygon(00, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
+  z-index: 5;
+  background-attachment: fixed;
+}
+
+.card-title {
+  grid-column-end: span 4;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+section {
+  display: block;
+}
+
+p {
+  text-align: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 @keyframes App-logo-spin {

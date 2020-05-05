@@ -4,22 +4,58 @@ class About extends React.Component{
     render() {
         return (
             <>
-            <h1>Who am I?</h1>
-            <strong>
-                <h3>
-                    My name is Polinet 
-                </h3>
-            </strong>
-            <p>
-                I am a junior full-stack web developer based
-                in Melbourne. 
-                I enjoy problem solving and currently interested
-                in learning more about React and making things
-                pretty and easy to use. I am also adventurous
-                with <span>🍜🍕🍙🍝</span>. This may sounds weird to some but
-                I've eaten these guys before
-                🦗 and tarantula. 
-            </p>
+            <section>
+            <article>
+            <div className="card w-50">
+                <div className="card-body">
+                    <h5 className="card-title">Who am I?</h5>
+                    <p>My name is Polinet</p>
+                    <p className="card-text">
+                        I am a junior full-stack web developer based
+                        in Melbourne. 
+                        I enjoy problem solving and currently interested
+                        in learning more about React and making things
+                        pretty and easy to use. 
+                    </p>
+                </div>
+            </div>
+            </article>
+            </section>
+
+            <section id='about'>
+                <div className='wrapper'>
+                    <article>
+                        <div className='title'>
+                            <h3>Who am I?</h3>
+                            <p className='separator'></p>
+                        </div>
+                        <div className='desc full'>
+                            <h4 className='subtitle'>My name is Polinet</h4>
+                            <p>I am a full stack engineer</p>
+                            <p>I code</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            {/* <div className="container">
+            <div className="row about">
+                <h1>Who am I?</h1>
+                <hr></hr>
+                <strong>
+                    <h4>
+                        My name is Polinet 
+                    </h4>
+                </strong>
+            </div>
+            <div className="row about-text">
+                <p className="aboutme">
+                    I am a junior full-stack web developer based
+                    in Melbourne. 
+                    I enjoy problem solving and currently interested
+                    in learning more about React and making things
+                    pretty and easy to use. 
+                </p>
+            </div>
             <strong>
                 <h3>What do I do?</h3>
             </strong>
@@ -43,6 +79,7 @@ class About extends React.Component{
                     </div>
 
             </div>
+            </div> */}
             </>
         )
     }
