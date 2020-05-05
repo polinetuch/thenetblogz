@@ -1,9 +1,10 @@
 import React from 'react';
-import projects from './projects.json';
+import Photos from './projects.json';
 
 class Projects extends React.Component {
 
     render() {
+
         return (
             <>
             <div className="container">
@@ -11,13 +12,17 @@ class Projects extends React.Component {
                 <p>These are the projects that I worked on
                     during my time at Coding Bootcamp program
                     with Monash University
-                {/* <img src={projects.crystal.image}/> */}
                 </p>
-
-                {/* <div className="projects">
-                    <img src={projects.crystal} alt={projects.name}/>
-                </div> */}
-                   
+                <div className="row">
+                    {Photos.map((postdetail, index) => {
+                        return <div className="col-sm-3" key={index}>
+                            <strong><p>{postdetail.name}</p></strong>
+                            <img src={postdetail.image} alt={postdetail.name}/>
+                            <p>View source: {postdetail.source}</p>
+                            <p>Try it live: {postdetail.url}</p>
+                            </div>
+                    })}
+                </div>
             </div>
             </>
         )

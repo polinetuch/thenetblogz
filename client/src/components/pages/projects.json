@@ -1,11 +1,81 @@
 [
   {
-    "Crystal": {
-      "id": 1,
-      "name": "Crystal Collector",
-      "image": "./img/crystal-collector.png",
-      "description": "",
-      "url": "https://polinetuch.github.io/unit-4-game/"
-    }
+    "id": 1,
+    "name": "Crystal Collector",
+    "image": "",
+    "description": "",
+    "url": "https://polinetuch.github.io/unit-4-game/"
+  },
+
+  {
+    "id": 2,
+    "name": "Click Once Not Twice",
+    "image": "",
+    "description": "",
+    "source": "https://github.com/polinetuch/clicky-game",
+    "url": "https://click-once-not-twice.herokuapp.com/"
+  },
+
+  {
+    "id": 3,
+    "name": "Friend Finder",
+    "image": "",
+    "description": "",
+    "source": "https://github.com/polinetuch/friend-finder",
+    "url": "https://click-once-not-twice.herokuapp.com/"
+  },
+
+  {
+    "id": 4,
+    "name": "Bamazon",
+    "video": "https://drive.google.com/file/d/1oDVxg81vCoEv0pI5_87zURSVYV7w-_zJ/view",
+    "source": "https://github.com/polinetuch/bamazon"
+  },
+
+  {
+    "id": 5,
+    "name": "Liri Node App",
+    "video": "https://drive.google.com/file/d/1y62ypoMBCahtv95oe0Ot9adFsQMeJPSN/view",
+    "source": "https://github.com/polinetuch/liri-node-app"
+  },
+
+  {
+    "id": 6,
+    "name": "Train Schedule",
+    "image": "",
+    "source": "https://github.com/polinetuch/train-schedule",
+    "url": "https://polinetuch.github.io/train-schedule/"
+  },
+
+  {
+    "id": 7,
+    "name": "Giphy API",
+    "image": "",
+    "source": "https://github.com/polinetuch/giphy-api",
+    "url": "https://polinetuch.github.io/giphy-api/"
+  },
+
+  {
+    "id": 8,
+    "name": "Word Guess Game",
+    "image": "",
+    "source": "https://github.com/polinetuch/Word-Guess-Game",
+    "url": "https://polinetuch.github.io/Word-Guess-Game/"
+  },
+
+  {
+    "id": 9,
+    "name": "Psychic Game",
+    "image": "",
+    "source": "https://github.com/polinetuch/Psychic-Game",
+    "url": "https://polinetuch.github.io/Psychic-Game/"
+  },
+
+  {
+    "id": 10,
+    "name": "Along Came Polly",
+    "image": "",
+    "source": "https://github.com/polinetuch/Along-Came-Polly",
+    "url": "https://linh0404.github.io/Along-Came-Polly/"
   }
 ]

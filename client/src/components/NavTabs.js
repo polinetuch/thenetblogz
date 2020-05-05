@@ -29,12 +29,12 @@ class NavTabs extends React.Component {
                                 </li>
                             </div>
 
-                            <div className="col-sm-3">
+                            {/* <div className="col-sm-3">
                                 <li className="nav-item">
                                     <Link to="/games" className={window.location.pathname === "/games"
                                     ? "nav-link active" : "nav-link"}>Games</Link>
                                 </li>
-                            </div>
+                            </div> */}
 
                         </ul>
                     </nav>

@@ -16,7 +16,7 @@ class About extends React.Component{
                 I enjoy problem solving and currently interested
                 in learning more about React and making things
                 pretty and easy to use. I am also adventurous
-                with 🍜🍕🍙🍝. This may sounds weird to some but
+                with <span>🍜🍕🍙🍝</span>. This may sounds weird to some but
                 I've eaten these guys before
                 🦗 and tarantula. 
             </p>
